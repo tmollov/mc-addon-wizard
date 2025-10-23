@@ -67,4 +67,13 @@ NOTE: Because Cargo will download and compile packages it can take some time dep
 
 #### Gallery
 
-![Add-On Init]([filename](https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-On-Init.png))
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-On-Init.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Element.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Item-2D.png" width="600">
+
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-All.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-Boolean.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-Number.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-String.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-Object.png" width="600">
+<img src="https://raw.githubusercontent.com/tmollov/mc-addon-wizard/refs/heads/main/gallery/Add-Component-Search.png" width="600">
