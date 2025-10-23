@@ -13,7 +13,7 @@
             <!-- Action Button -->
             <div class="flex flex-4 items-center">
                 <div class="mx-auto">
-                    <router-link to="/add-element" custom v-slot="{ navigate }">
+                    <router-link to="/add" custom v-slot="{ navigate }">
                         <button @click="navigate" class="minecraft-green btn text-black font-bold rounded-xl">
                             Add Element
                         </button>
