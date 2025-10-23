@@ -8,7 +8,7 @@
       <div class="flex gap-4">
         <RouterLink to="/privacy" class="hover:text-green-400 transition-colors">Privacy</RouterLink>
         <RouterLink to="/terms" class="hover:text-green-400 transition-colors">Terms</RouterLink>
-        <a href="https://github.com" target="_blank" class="hover:text-green-400 transition-colors">GitHub</a>
+        <a href="https://github.com/tmollov/mc-addon-wizard" target="_blank" class="hover:text-green-400 transition-colors">GitHub</a>
       </div>
     </div>
   </footer>
