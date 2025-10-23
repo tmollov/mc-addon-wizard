@@ -1,0 +1,172 @@
+[
+  {
+    "key": "minecraft:allow_off_hand",
+    "type": "boolean",
+    "desc": "Whether the item can be placed in the off-hand slot."
+  },
+  {
+    "key": "minecraft:block_placer",
+    "type": "object",
+    "desc": "Allows the item to place a block when used."
+  },
+  {
+    "key": "minecraft:bundle_interaction",
+    "type": "object",
+    "desc": "Enables bundle-specific interaction and tooltip for the item."
+  },
+  {
+    "key": "minecraft:can_destroy_in_creative",
+    "type": "boolean",
+    "desc": "Determines if the item can destroy blocks in creative mode."
+  },
+  {
+    "key": "minecraft:compostable",
+    "type": "object",
+    "desc": "Specifies that the item is compostable and chance of composting."
+  },
+  {
+    "key": "minecraft:cooldown",
+    "type": "object",
+    "desc": "Defines a cooldown time (in seconds) after use before reuse."
+  },
+  {
+    "key": "minecraft:custom_components",
+    "type": "object",
+    "desc": "Specifies an array of custom script components for this item."
+  },
+  {
+    "key": "minecraft:damage",
+    "type": "number",
+    "desc": "Extra damage the item does on attack."
+  },
+  {
+    "key": "minecraft:damage_absorption",
+    "type": "object",
+    "desc": "Allows the item to absorb damage that would otherwise be dealt to its wearer."
+  },
+  {
+    "key": "minecraft:digger",
+    "type": "object",
+    "desc": "Specifies how quickly the item can dig specific blocks."
+  },
+  {
+    "key": "minecraft:display_name",
+    "type": "object",
+    "desc": "Sets the custom display name shown for the item."
+  },
+  {
+    "key": "minecraft:durability",
+    "type": "object",
+    "desc": "Specifies how much damage the item can take before breaking."
+  },
+  {
+    "key": "minecraft:durability_sensor",
+    "type": "object",
+    "desc": "Enables effects when the item receives damage based on thresholds."
+  },
+  {
+    "key": "minecraft:dyeable",
+    "type": "object",
+    "desc": "Allows the item to be dyed via cauldrons."
+  },
+  {
+    "key": "minecraft:enchantable",
+    "type": "object",
+    "desc": "Defines which enchantments can be applied to the item."
+  },
+  {
+    "key": "minecraft:entity_placer",
+    "type": "object",
+    "desc": "Allows the item to place entities into the world."
+  },
+  {
+    "key": "minecraft:fire_resistant",
+    "type": "boolean",
+    "desc": "Item is immune to burning when dropped in fire or lava."
+  },
+  {
+    "key": "minecraft:food",
+    "type": "object",
+    "desc": "Defines the item as food – nutrition, saturation etc."
+  },
+  {
+    "key": "minecraft:fuel",
+    "type": "number",
+    "desc": "Allows the item to be used as fuel in a furnace."
+  },
+  {
+    "key": "minecraft:glint",
+    "type": "boolean",
+    "desc": "Applies the enchanted glint render effect on the item."
+  },
+  {
+    "key": "minecraft:hand_equipped",
+    "type": "boolean",
+    "desc": "Determines if the item renders like a tool while held."
+  },
+  {
+    "key": "minecraft:hover_text_color",
+    "type": "string",
+    "desc": "Specifies the color of the item name when hovered over."
+  },
+  {
+    "key": "minecraft:icon",
+    "type": "string",
+    "desc": "The icon graphic used for the item in the UI."
+  },
+  {
+    "key": "minecraft:interact_button",
+    "type": "string",
+    "desc": "Shows a custom interact button text or enables it for touch controls."
+  },
+  {
+    "key": "minecraft:rarity",
+    "type": "string",
+    "desc": "Specifies base rarity and color of the item name when hovered."
+  },
+  {
+    "key": "minecraft:record",
+    "type": "object",
+    "desc": "Used by record items to define music playback behaviour."
+  },
+  {
+    "key": "minecraft:repairable",
+    "type": "object",
+    "desc": "Specifies which items can repair this item and how much durability is gained."
+  },
+  {
+    "key": "minecraft:shooter",
+    "type": "object",
+    "desc": "Shooter component – allows item to shoot projectiles."
+  },
+  {
+    "key": "minecraft:should_despawn",
+    "type": "boolean",
+    "desc": "Determines if the item entity should despawn when floating."
+  },
+  {
+    "key": "minecraft:stacked_by_data",
+    "type": "boolean",
+    "desc": "Determines if items with different data values can stack or merge when floating."
+  },
+  {
+    "key": "minecraft:storage_item",
+    "type": "object",
+    "desc": "Allows this item to act as a storage container for other items."
+  },
+  {
+    "key": "minecraft:storage_weight_limit",
+    "type": "number",
+    "desc": "Maximum weight limit for items stored inside a storage item."
+  },
+  {
+    "key": "minecraft:use_modifiers",
+    "type": "object",
+    "desc": "Modifies use effects including use duration and player speed when used."
+  },
+  {
+    "key": "minecraft:wearable",
+    "type": "object",
+    "desc": "Allows the item to be worn in head/chest/legs/feet/off-hand slots."
+  }
+]
