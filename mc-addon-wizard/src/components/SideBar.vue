@@ -20,9 +20,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const items = [
-    { id: 1, name: 'One' },
-    { id: 2, name: 'Two' },
-    { id: 3, name: 'Three' }
+    { id: 1, name: 'Items' },
+    { id: 2, name: 'Blocks' },
+    { id: 3, name: 'Entities' }
 ]
 
 const activeId = ref(0);
