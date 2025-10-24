@@ -4,6 +4,7 @@ import About from "../views/About.vue";
 import NotFound from "../views/NotFound.vue";
 import AddElement from "../views/AddElement.vue";
 import Item2D from "../views/Item2D.vue";
+import Settings from "../views/Settings.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/settings",
+    name: "Settings",
+    component: Settings,
   },
   {
     path: "/add",
