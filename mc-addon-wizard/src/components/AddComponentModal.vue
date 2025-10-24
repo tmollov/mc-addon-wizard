@@ -1,14 +1,20 @@
 <!-- AddComponentModal.vue -->
 <template>
   <div v-if="open" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
-    <div class="bg-gray-800 rounded-2xl p-6 w-full max-w-lg space-y-4" style="height: 70vh;">
+    <div class="bg-gray-800 rounded-2xl p-4 w-full max-w-lg space-y-4" style="height: 70vh;">
       <div class="flex justify-between items-center">
         <h2 class="text-xl font-semibold">Add Component</h2>
         <button @click="close" class="text-gray-400 hover:text-white">✕</button>
       </div>
 
-      <input v-model="searchQuery" placeholder="Search component..."
-        class="w-full px-3 py-2 rounded bg-gray-900 text-white border border-gray-700" />
+      <div class="flex gap-2 mb-4">
+        <input v-model="searchQuery" placeholder="Search component..."
+          class="w-full px-3 py-2 rounded bg-gray-900 text-white border border-gray-700" />
+        <button class="px-2 rounded bg-red-500 text-white border border-gray-700" @click="searchQuery = ''">
+          Clear
+        </button>
+      </div>
+
 
       <!-- Category buttons -->
       <div class="flex flex-wrap gap-2 mb-4">
@@ -26,7 +32,7 @@
       <div class="max-h-115 overflow-y-auto mt-3 space-y-1">
         <button v-for="comp in filteredComponents" :key="comp.key" @click="select(comp)"
           class="w-full text-left px-3 py-2 rounded hover:bg-gray-700 transition">
-          <span class="font-medium text-lime-400">{{ comp.key }}</span>
+          <span class="font-medium text-lime-400">{{ comp.key.split(":")[1] }}</span>
           <p class="text-sm text-gray-400">{{ comp.desc }}</p>
         </button>
       </div>
