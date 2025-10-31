@@ -1,5 +1,4 @@
-# Minecraft Add-On Wizard -  
-[STILL IN DEVELOPMENT]🛠️✨
+# Minecraft Add-On Wizard - [STILL IN DEVELOPMENT] 🛠️✨
 
 > A beginner-friendly, drag & drop tool to create Minecraft add-ons without hassle.
 
